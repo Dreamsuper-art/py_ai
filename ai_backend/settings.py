@@ -148,3 +148,9 @@ SIMPLE_JWT = {
     # refresh 过期时间
     "REFRESH_TOKEN_LIFETIME": timedelta(days=14),
 }
+
+CELERY_BROKER_URL = 'redis://:password@your_ip:6379/0'
+CELERY_RESULT_BACKEND = 'redis://:password@your_ip:6379/1'
+CELERY_TIMEZONE = "Asia/Shanghai"
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT = 30 * 60 # 30分钟自动失效
