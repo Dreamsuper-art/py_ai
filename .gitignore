@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.env
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Production
+debug.log
+access.log
+
+# Static files (if not using CDN)
+# static/
+# media/
+
+# Django
+local_settings.py
+settings_local.py
+settings_secret.py
+ASYNC_API_GUIDE.md
